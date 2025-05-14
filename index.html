@@ -4,18 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | QR code component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body>
-    <h1 class="flex min-h-screen items-center justify-center">Hello World!</h1>
+    <div
+      class="flex min-h-screen max-w-screen items-center justify-center bg-slate-300"
+    >
+      <div
+        class="xs:max-w-72 flex max-w-80 flex-col items-center justify-center gap-y-6 rounded-2xl bg-white p-4 pb-10 shadow-lg"
+      >
+        <img
+          src="./images/image-qr-code.png"
+          alt="qr_code"
+          class="rounded-[10px]"
+        />
+        <div
+          class="flex flex-col items-center justify-center gap-y-4 px-4 text-center"
+        >
+          <h1 class="font-outfit font-bold text-slate-900">
+            Improve your front-end skills by building projects
+          </h1>
+          <p class="font-outfit text-[15px] text-slate-500">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
